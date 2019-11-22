@@ -1,0 +1,1 @@
+cd /data/Ostrander/fastq/090518/10800/; samtools view -o 10800_temp.bam -Shbu /scratch/harrisac2/10800_temp.sam ; samtools sort -o sort_10800.bam -T /lscratch/$SLURM_JOB_ID/ 10800_temp.bam; samtools index sort_10800.bam

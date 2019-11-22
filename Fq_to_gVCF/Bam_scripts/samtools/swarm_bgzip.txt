@@ -1,0 +1,1 @@
+cd /data/Ostrander/Experimental_VCFs/Oberbauer/; bcftools index -t /data/Ostrander/Experimental_VCFs/Oberbauer/155_Oberbauer.chrAll.vcf.gz

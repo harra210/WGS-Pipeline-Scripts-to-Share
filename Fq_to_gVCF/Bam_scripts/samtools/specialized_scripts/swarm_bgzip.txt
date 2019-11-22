@@ -1,0 +1,1 @@
+cd /scratch/harrisac2/; bcftools index -t --threads $SLURM_CPUS_PER_TASK /scratch/harrisac2/859g_WolvesExcluded.vcf.gz

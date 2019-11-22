@@ -1,0 +1,1 @@
+cd /data/Ostrander/fastq/010719/23704; samtools flagstat sort_23704.bam > 23704_flagstat_test.o

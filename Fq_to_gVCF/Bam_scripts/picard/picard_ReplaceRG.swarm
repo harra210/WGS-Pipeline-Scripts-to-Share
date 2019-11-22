@@ -1,0 +1,3 @@
+cd /data/Ostrander/722_GATK4_Remake/BQSR/; java -Xmx16g -jar $PICARDJARPATH/picard.jar AddOrReplaceReadGroups I=BullTerrier06.BQSR.bam O=RGFix_BullTerrier06.BQSR.bam SO=coordinate RGID=BullTerrier06 RGLB=BullTerrier06 RGPL=ILLUMINA RGSM=BullTerrier06 RGPU=un1
+cd /data/Ostrander/722_GATK4_Remake/BQSR/; java -Xmx16g -jar $PICARDJARPATH/picard.jar AddOrReplaceReadGroups I=BullTerrier07.BQSR.bam O=RGFix_BullTerrier07.BQSR.bam SO=coordinate RGID=BullTerrier07 RGLB=BullTerrier07 RGPL=ILLUMINA RGSM=BullTerrier07 RGPU=un1
+cd /data/Ostrander/722_GATK4_Remake/BQSR/; java -Xmx16g -jar $PICARDJARPATH/picard.jar AddOrReplaceReadGroups I=BullTerrier08.BQSR.bam O=RGFix_BullTerrier08.BQSR.bam SO=coordinate RGID=BullTerrier08 RGLB=BullTerrier08 RGPL=ILLUMINA RGSM=BullTerrier08 RGPU=un1
